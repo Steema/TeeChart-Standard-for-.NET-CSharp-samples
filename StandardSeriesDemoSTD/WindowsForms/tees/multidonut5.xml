@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="HorizontalBar" color="#F3EA8D">
+<points count="4">
+<point index="0" text="LATE AT NIGHT IN BED" color="#F9CD20" Bar="40"/>
+<point index="1" text="WHILE COMMUTING" color="#F39225" Bar="25"/>
+<point index="2" text="WHILE HAVING DINNER" color="#F9CD20" Bar="23"/>
+<point index="3" text="WHILE SHOPPING" color="#F39225" Bar="20"/>
+</points>
+</series>
+
+</chart>

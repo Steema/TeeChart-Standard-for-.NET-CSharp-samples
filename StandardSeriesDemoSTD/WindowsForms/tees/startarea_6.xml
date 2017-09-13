@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Area" color="#4466A3">
+<points count="25">
+<point index="0" color="#4466A3" Y="662.470875"/>
+<point index="1" color="#4466A3" Y="663.321125"/>
+<point index="2" color="#4466A3" Y="659.069875"/>
+<point index="3" color="#4466A3" Y="639.514125"/>
+<point index="4" color="#4466A3" Y="648.016625"/>
+<point index="5" color="#4466A3" Y="638.663875"/>
+<point index="6" color="#4466A3" Y="654.3935"/>
+<point index="7" color="#4466A3" Y="638.23875"/>
+<point index="8" color="#4466A3" Y="619.958375"/>
+<point index="9" color="#4466A3" Y="625.910124999999"/>
+<point index="10" color="#4466A3" Y="641.214624999999"/>
+<point index="11" color="#4466A3" Y="658.219624999999"/>
+<point index="12" color="#4466A3" Y="667.997499999999"/>
+<point index="13" color="#4466A3" Y="652.267874999999"/>
+<point index="14" color="#4466A3" Y="644.615624999999"/>
+<point index="15" color="#4466A3" Y="628.885999999999"/>
+<point index="16" color="#4466A3" Y="622.509124999999"/>
+<point index="17" color="#4466A3" Y="636.963374999999"/>
+<point index="18" color="#4466A3" Y="641.214624999999"/>
+<point index="19" color="#4466A3" Y="621.658874999999"/>
+<point index="20" color="#4466A3" Y="631.861874999999"/>
+<point index="21" color="#4466A3" Y="618.682999999999"/>
+<point index="22" color="#4466A3" Y="601.252874999999"/>
+<point index="23" color="#4466A3" Y="609.755374999999"/>
+<point index="24" color="#4466A3" Y="591.900124999999"/>
+</points>
+</series>
+
+<series title="Series1" type="Area" color="#F39C35">
+<points count="25">
+<point index="0" color="#F39C35" Y="601.983027187499"/>
+<point index="1" color="#F39C35" Y="601.792783749999"/>
+<point index="2" color="#F39C35" Y="604.075704999999"/>
+<point index="3" color="#F39C35" Y="607.500086874999"/>
+<point index="4" color="#F39C35" Y="615.300067812499"/>
+<point index="5" color="#F39C35" Y="622.148831562499"/>
+<point index="6" color="#F39C35" Y="613.397633437499"/>
+<point index="7" color="#F39C35" Y="614.729337499999"/>
+<point index="8" color="#F39C35" Y="618.724449687499"/>
+<point index="9" color="#F39C35" Y="609.783008124999"/>
+<point index="10" color="#F39C35" Y="611.875685937499"/>
+<point index="11" color="#F39C35" Y="606.358626249999"/>
+<point index="12" color="#F39C35" Y="610.353738437499"/>
+<point index="13" color="#F39C35" Y="617.773232499999"/>
+<point index="14" color="#F39C35" Y="614.919580937499"/>
+<point index="15" color="#F39C35" Y="621.007370937499"/>
+<point index="16" color="#F39C35" Y="629.758569062499"/>
+<point index="17" color="#F39C35" Y="624.621996249999"/>
+<point index="18" color="#F39C35" Y="618.153719374999"/>
+<point index="19" color="#F39C35" Y="623.100048749999"/>
+<point index="20" color="#F39C35" Y="626.904917499999"/>
+<point index="21" color="#F39C35" Y="633.1829509375"/>
+<point index="22" color="#F39C35" Y="633.373194375"/>
+<point index="23" color="#F39C35" Y="635.8463590625"/>
+<point index="24" color="#F39C35" Y="642.504879375"/>
+</points>
+</series>
+
+</chart>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="SubaruBRZWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SubaruBRZWPF"
+        xmlns:wpf="clr-namespace:Steema.TeeChart.WPF;assembly=TeeChart.StandardWPF"
+        mc:Ignorable="d"
+        Title="TeeChart for NET - Subaru BRZ acceleration simulation" Height="1000" Width="1500" ResizeMode="CanMinimize">
+    <Grid>
+      <Image Source="/SubaruBRZWPF;component/Resources/subaru_template.png"/>
+      <wpf:TChart Name="revChart" Margin="450, 140, 390, 200"/>
+      <wpf:TChart Name="speedChart" Margin="-50, 270, 900, 140"/>
+  </Grid>
+</Window>

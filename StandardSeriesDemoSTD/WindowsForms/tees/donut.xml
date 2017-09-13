@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Donut" color="#A200FF">
+<points count="6">
+<point index="0" text="Russia" color="#A200FF" Pie="27.3"/>
+<point index="1" text="Canada" color="#FF0097" Pie="16"/>
+<point index="2" text="China" color="#00ABA9" Pie="15.4"/>
+<point index="3" text="United States" color="#8CBF26" Pie="15.4"/>
+<point index="4" text="Brazil" color="#A05000" Pie="13.6"/>
+<point index="5" text="Australia" color="#E671B8" Pie="12.3"/>
+</points>
+</series>
+
+</chart>

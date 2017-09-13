@@ -1,0 +1,125 @@
+object TChartChart
+  Left = 3
+  Top = 3
+  Width = 400
+  Height = 203
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  BackWall.Visible = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  RightWall.Color = 14745599
+  Title.AutoSize = False
+  Title.Font.Color = clGray
+  Title.Font.Height = -25
+  Title.Font.Name = 'Segoe UI'
+  Title.Frame.Color = 142639232
+  Title.Frame.Width = 0
+  Title.Frame.SmallDots = True
+  Title.Margins.Top = 0
+  Title.Margins.Bottom = 0
+  Title.Shadow.Visible = False
+  Title.Text.Strings = (
+    'Server Status')
+  Title.Transparent = False
+  Title.AdjustFrame = False
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.Grid.Visible = False
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  BottomAxis.Visible = False
+  CustomAxes = <
+    item
+      Horizontal = False
+      OtherSide = False
+    end>
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.Grid.Visible = False
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.MaximumOffset = 7
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Visible = False
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  BevelOuter = bvNone
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: THorizBarSeries
+    BarPen.Color = 2097152000
+    BarPen.Fill.Gradient.EndColor = clGray
+    BarPen.Fill.Gradient.StartColor = 14671839
+    BarPen.Fill.Gradient.Visible = True
+    BarPen.SmallDots = True
+    Marks.Visible = False
+    SeriesColor = clWhite
+    BarWidthPercent = 50
+    MultiBar = mbNone
+    XValues.Name = 'Bar'
+    XValues.Order = loNone
+    YValues.Name = 'Y'
+    YValues.Order = loAscending
+    Data = {
+      0005000000000000000000594000000000000059400000000000005940000000
+      00000059400000000000005940}
+  end
+  object Series1: THorizBarSeries
+    BarPen.Visible = False
+    ColorEachPoint = True
+    Marks.Font.Color = clWhite
+    Marks.Font.Name = 'Segoe UI'
+    Marks.Font.Style = [fsBold]
+    Marks.Transparent = True
+    Marks.TextAlignment = taRightJustify
+    Marks.Style = smsPercent
+    Marks.Arrow.Visible = False
+    Marks.Callout.Arrow.Visible = False
+    Marks.Callout.Length = -57
+    Marks.TextAlign = taRightJustify
+    BarWidthPercent = 44
+    MultiBar = mbNone
+    XValues.Name = 'Bar'
+    XValues.Order = loNone
+    YValues.Name = 'Y'
+    YValues.Order = loAscending
+    Data = {
+      04050000000000000000004E40FF0900000042616E6477696474680000000000
+      405540FF0E0000004170707320696E7374616C6C65640000000000004440FF0D
+      00000053746F726167652073706163650000000000804B40FF09000000435055
+      2055736167650000000000004940FF0C0000004D656D6F7279205573616765}
+  end
+end

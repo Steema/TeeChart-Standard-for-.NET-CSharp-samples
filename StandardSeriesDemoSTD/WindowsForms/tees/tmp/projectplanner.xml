@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Gantt" color="#4466A3">
+<points count="16">
+<point index="0" text="Design" color="#4466A3" Start="42065" End="42087" NextTask="-1"/>
+<point index="1" text="Prototyping" color="#F39C35" Start="42068" End="42083" NextTask="-1"/>
+<point index="2" text="Development" color="#F14C14" Start="42069" End="42092" NextTask="-1"/>
+<point index="3" text="Sales" color="#4E97A8" Start="42074" End="42096" NextTask="-1"/>
+<point index="4" text="Marketing" color="#2B406B" Start="42076" End="42096" NextTask="-1"/>
+<point index="5" text="Testing" color="#1D7B63" Start="42079" End="42100" NextTask="-1"/>
+<point index="6" text="Manufac." color="#B3080E" Start="42082" End="42092" NextTask="-1"/>
+<point index="7" text="Debugging" color="#F2C05D" Start="42085" End="42101" NextTask="-1"/>
+<point index="8" text="New Version" color="#5DB79E" Start="42090" End="42104" NextTask="-1"/>
+<point index="9" text="Banking" color="#707070" Start="42090" End="42111" NextTask="-1"/>
+<point index="10" text="Design" color="#F3EA8D" Start="42094" End="42110" NextTask="-1"/>
+<point index="11" text="Prototyping" color="#B4B4B4" Start="42095" End="42113" NextTask="-1"/>
+<point index="12" text="Development" color="#4466A3" Start="42100" End="42110" NextTask="-1"/>
+<point index="13" text="Sales" color="#F39C35" Start="42103" End="42118" NextTask="-1"/>
+<point index="14" text="Marketing" color="#F14C14" Start="42106" End="42122" NextTask="-1"/>
+<point index="15" text="Testing" color="#4E97A8" Start="42110" End="42128" NextTask="-1"/>
+</points>
+</series>
+
+</chart>

@@ -1,0 +1,92 @@
+object TChartChart
+  Left = 0
+  Top = 40
+  Width = 752
+  Height = 34
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.StartColor = 15395562
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginTop = 6
+  RightWall.Color = 14745599
+  Title.Font.Name = 'Verdana'
+  Title.Margins.Bottom = 8
+  Title.Text.Strings = (
+    'TeeChart')
+  Title.Visible = False
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Alignment = laTop
+  Legend.Font.Color = clGray
+  Legend.Font.Height = -16
+  Legend.Font.Name = 'Segoe UI'
+  Legend.Frame.Visible = False
+  Legend.Shadow.Transparency = 0
+  Legend.Symbol.Pen.Visible = False
+  Legend.Transparent = True
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  BevelOuter = bvNone
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TBarSeries
+    BarPen.Visible = False
+    Marks.Visible = False
+    Title = 'Women'
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Bar'
+    YValues.Order = loNone
+    Data = {
+      00060000000000000000D0614000000000007067400000000000606340000000
+      0000606D4000000000007072400000000000607340}
+  end
+  object Series1: TBarSeries
+    BarPen.Visible = False
+    Marks.Visible = False
+    Title = 'Men'
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Bar'
+    YValues.Order = loNone
+    Data = {
+      00060000003233333333EF6D409899999999596A40CBCCCCCCCCBC6A40323333
+      3333EF6D4032333333339D70409899999999B56E40}
+  end
+end

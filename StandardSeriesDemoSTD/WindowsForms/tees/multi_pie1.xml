@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Women" type="Bar" color="#4466A3">
+<points count="6">
+<point index="0" color="#4466A3" Bar="142.5"/>
+<point index="1" color="#4466A3" Bar="187.5"/>
+<point index="2" color="#4466A3" Bar="155"/>
+<point index="3" color="#4466A3" Bar="235"/>
+<point index="4" color="#4466A3" Bar="295"/>
+<point index="5" color="#4466A3" Bar="310"/>
+</points>
+</series>
+
+<series title="Men" type="Bar" color="#F39C35">
+<points count="6">
+<point index="0" color="#F39C35" Bar="239.475"/>
+<point index="1" color="#F39C35" Bar="210.8"/>
+<point index="2" color="#F39C35" Bar="213.9"/>
+<point index="3" color="#F39C35" Bar="239.475"/>
+<point index="4" color="#F39C35" Bar="265.825"/>
+<point index="5" color="#F39C35" Bar="245.675"/>
+</points>
+</series>
+
+</chart>

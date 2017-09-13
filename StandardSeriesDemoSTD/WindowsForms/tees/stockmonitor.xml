@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Portfolio 1" type="Line" color="#FF9966">
+<points count="25">
+<point index="0" color="#FF9966" X="42062" Y="45"/>
+<point index="1" color="#FF9966" X="42063" Y="152.5"/>
+<point index="2" color="#FF9966" X="42064" Y="152.5"/>
+<point index="3" color="#FF9966" X="42065" Y="205"/>
+<point index="4" color="#FF9966" X="42066" Y="102.5"/>
+<point index="5" color="#FF9966" X="42067" Y="117.5"/>
+<point index="6" color="#FF9966" X="42068" Y="70"/>
+<point index="7" color="#FF9966" X="42069" Y="87.5"/>
+<point index="8" color="#FF9966" X="42070" Y="120"/>
+<point index="9" color="#FF9966" X="42071" Y="47.5"/>
+<point index="10" color="#FF9966" X="42072" Y="2.5"/>
+<point index="11" color="#FF9966" X="42073" Y="10"/>
+<point index="12" color="#FF9966" X="42074" Y="7.5"/>
+<point index="13" color="#FF9966" X="42075" Y="115"/>
+<point index="14" color="#FF9966" X="42076" Y="135"/>
+<point index="15" color="#FF9966" X="42077" Y="130"/>
+<point index="16" color="#FF9966" X="42078" Y="100"/>
+<point index="17" color="#FF9966" X="42079" Y="217.5"/>
+<point index="18" color="#FF9966" X="42080" Y="197.5"/>
+<point index="19" color="#FF9966" X="42081" Y="162.5"/>
+<point index="20" color="#FF9966" X="42082" Y="270"/>
+<point index="21" color="#FF9966" X="42083" Y="345"/>
+<point index="22" color="#FF9966" X="42084" Y="430"/>
+<point index="23" color="#FF9966" X="42085" Y="437.5"/>
+<point index="24" color="#FF9966" X="42086" Y="545"/>
+</points>
+</series>
+
+<series title="Portfolio 2" type="Line" color="#0080FF">
+<points count="25">
+<point index="0" color="#0080FF" X="42062" Y="470.40625"/>
+<point index="1" color="#0080FF" X="42063" Y="435.14375"/>
+<point index="2" color="#0080FF" X="42064" Y="371.4"/>
+<point index="3" color="#0080FF" X="42065" Y="416.15625"/>
+<point index="4" color="#0080FF" X="42066" Y="433.7875"/>
+<point index="5" color="#0080FF" X="42067" Y="399.88125"/>
+<point index="6" color="#0080FF" X="42068" Y="367.33125"/>
+<point index="7" color="#0080FF" X="42069" Y="318.50625"/>
+<point index="8" color="#0080FF" X="42070" Y="360.55"/>
+<point index="9" color="#0080FF" X="42071" Y="306.3"/>
+<point index="10" color="#0080FF" X="42072" Y="273.75"/>
+<point index="11" color="#0080FF" X="42073" Y="266.96875"/>
+<point index="12" color="#0080FF" X="42074" Y="323.93125"/>
+<point index="13" color="#0080FF" X="42075" Y="323.93125"/>
+<point index="14" color="#0080FF" X="42076" Y="256.11875"/>
+<point index="15" color="#0080FF" X="42077" Y="280.53125"/>
+<point index="16" color="#0080FF" X="42078" Y="323.93125"/>
+<point index="17" color="#0080FF" X="42079" Y="380.89375"/>
+<point index="18" color="#0080FF" X="42080" Y="379.5375"/>
+<point index="19" color="#0080FF" X="42081" Y="431.075"/>
+<point index="20" color="#0080FF" X="42082" Y="421.58125"/>
+<point index="21" color="#0080FF" X="42083" Y="361.90625"/>
+<point index="22" color="#0080FF" X="42084" Y="399.88125"/>
+<point index="23" color="#0080FF" X="42085" Y="416.15625"/>
+<point index="24" color="#0080FF" X="42086" Y="463.625"/>
+</points>
+</series>
+
+<series title="Portfolio 3" type="Line" color="#80FF80">
+<points count="25">
+<point index="0" color="#80FF80" X="42062" Y="264.25625"/>
+<point index="1" color="#80FF80" X="42063" Y="287.3125"/>
+<point index="2" color="#80FF80" X="42064" Y="258.83125"/>
+<point index="3" color="#80FF80" X="42065" Y="304.94375"/>
+<point index="4" color="#80FF80" X="42066" Y="256.11875"/>
+<point index="5" color="#80FF80" X="42067" Y="231.70625"/>
+<point index="6" color="#80FF80" X="42068" Y="257.475"/>
+<point index="7" color="#80FF80" X="42069" Y="249.3375"/>
+<point index="8" color="#80FF80" X="42070" Y="191.01875"/>
+<point index="9" color="#80FF80" X="42071" Y="174.74375"/>
+<point index="10" color="#80FF80" X="42072" Y="182.88125"/>
+<point index="11" color="#80FF80" X="42073" Y="121.85"/>
+<point index="12" color="#80FF80" X="42074" Y="157.1125"/>
+<point index="13" color="#80FF80" X="42075" Y="147.61875"/>
+<point index="14" color="#80FF80" X="42076" Y="162.5375"/>
+<point index="15" color="#80FF80" X="42077" Y="147.61875"/>
+<point index="16" color="#80FF80" X="42078" Y="90.65625"/>
+<point index="17" color="#80FF80" X="42079" Y="147.61875"/>
+<point index="18" color="#80FF80" X="42080" Y="85.2312500000001"/>
+<point index="19" color="#80FF80" X="42081" Y="102.8625"/>
+<point index="20" color="#80FF80" X="42082" Y="128.63125"/>
+<point index="21" color="#80FF80" X="42083" Y="192.375"/>
+<point index="22" color="#80FF80" X="42084" Y="189.6625"/>
+<point index="23" color="#80FF80" X="42085" Y="150.33125"/>
+<point index="24" color="#80FF80" X="42086" Y="177.45625"/>
+</points>
+</series>
+
+</chart>

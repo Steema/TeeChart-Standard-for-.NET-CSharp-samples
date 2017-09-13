@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Native-Style Display" type="Bar" color="#4466A3">
+<points count="6">
+<point index="0" text="2013" color="#4466A3" Bar="1"/>
+<point index="1" text="2014" color="#4466A3" Bar="1.3"/>
+<point index="2" text="2015" color="#4466A3" Bar="1.9"/>
+<point index="3" text="2016" color="#4466A3" Bar="2.7"/>
+<point index="4" text="2017" color="#4466A3" Bar="3.9"/>
+<point index="5" text="2018" color="#4466A3" Bar="5.7"/>
+</points>
+</series>
+
+<series title="Sponsorship" type="Bar" color="#F39C35">
+<points count="6">
+<point index="0" color="#F39C35" Bar="0.8"/>
+<point index="1" color="#F39C35" Bar="1"/>
+<point index="2" color="#F39C35" Bar="1.3"/>
+<point index="3" color="#F39C35" Bar="2"/>
+<point index="4" color="#F39C35" Bar="2.7"/>
+<point index="5" color="#F39C35" Bar="3.4"/>
+</points>
+</series>
+
+<series title="Social" type="Bar" color="#F14C14">
+<points count="6">
+<point index="0" color="#F14C14" Bar="2.9"/>
+<point index="1" color="#F14C14" Bar="5.6"/>
+<point index="2" color="#F14C14" Bar="7.5"/>
+<point index="3" color="#F14C14" Bar="9.2"/>
+<point index="4" color="#F14C14" Bar="10.7"/>
+<point index="5" color="#F14C14" Bar="11.9"/>
+</points>
+</series>
+
+</chart>

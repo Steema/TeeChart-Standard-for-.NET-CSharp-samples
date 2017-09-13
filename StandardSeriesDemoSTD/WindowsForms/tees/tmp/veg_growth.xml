@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="With nutrient" type="Area" color="#FF9966">
+<points count="0">
+</points>
+</series>
+
+<series title="No added nutrient" type="Area" color="#80FFFF">
+<points count="0">
+</points>
+</series>
+
+<series title="Series2" type="Area" color="#FF9966">
+<points count="0">
+</points>
+</series>
+
+</chart>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="HorizontalBar" color="#FFFFFF">
+<points count="5">
+<point index="0" color="#FFFFFF" Bar="100"/>
+<point index="1" color="#FFFFFF" Bar="100"/>
+<point index="2" color="#FFFFFF" Bar="100"/>
+<point index="3" color="#FFFFFF" Bar="100"/>
+<point index="4" color="#FFFFFF" Bar="100"/>
+</points>
+</series>
+
+<series title="Series1" type="HorizontalBar" color="#4466A3">
+<points count="5">
+<point index="0" text="Bandwidth" color="#4466A3" Bar="60"/>
+<point index="1" text="Apps installed" color="#F39C35" Bar="85"/>
+<point index="2" text="Storage space" color="#F14C14" Bar="40"/>
+<point index="3" text="CPU Usage" color="#4E97A8" Bar="55"/>
+<point index="4" text="Memory Usage" color="#2B406B" Bar="50"/>
+</points>
+</series>
+
+</chart>

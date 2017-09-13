@@ -1,0 +1,109 @@
+﻿<Window x:Class="StandardSeriesWPFDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StandardSeriesWPFDemo"
+        xmlns:wpf="clr-namespace:Steema.TeeChart.WPF;assembly=TeeChart.StandardWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1000">
+  <Grid>
+    <StackPanel Name="RootPanel" Margin="0,0,0,0" Orientation="Horizontal">
+      <StackPanel Name="MenuPanel" Margin="0,0,0,0" Background="DimGray" Width="300">
+        <Image Source="/StandardSeriesWPFDemo;component/Resources/TeeChartWhite300x70.png"  />
+        <Label Background="DimGray" Foreground="White" Content="StandardSeries" HorizontalContentAlignment="Center" FontSize="14"/>
+
+        <StackPanel Name="MenuPanel1" Margin="0,0,0,0" Width="300">
+          <Button Name="Lines" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Lines_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Lines" Foreground="White" Width="280"/>
+              <Image Name="Up" Source="/StandardSeriesWPFDemo;component/Resources/up.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="StockM" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Stock Monitoring" HorizontalContentAlignment="Left" FontSize="16"/>
+          <Button Name="WebA" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Web Analytics" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Name="MenuPanel2" Margin="0,0,0,0" Width="300">
+          <Button Name="Bars" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Bars_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Bars" Foreground="White" Width="280"/>
+              <Image Source="/StandardSeriesWPFDemo;component/Resources/down.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="SalesF" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Sales Figures" HorizontalContentAlignment="Left" FontSize="16"/>
+          <Button Name="StackedB" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Stacked Bars" HorizontalContentAlignment="Left" FontSize="16"/>
+          <Button Name="ServerS" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Server Status" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Name="MenuPanel3" Margin="0,0,0,0" Width="300">
+          <Button Name="Areas" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Areas_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Areas" Foreground="White" Width="280"/>
+              <Image Source="/StandardSeriesWPFDemo;component/Resources/down.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="VegG" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Vegetation Growth" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Name="MenuPanel4" Margin="0,0,0,0" Width="300">
+          <Button Name="Pie" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Pie_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Pie and Donut" Foreground="White" Width="280"/>
+              <Image Source="/StandardSeriesWPFDemo;component/Resources/down.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="SalesFi" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Sales Figures" HorizontalContentAlignment="Left" FontSize="16"/>
+          <Button Name="MultipleP" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Multiple Pies" HorizontalContentAlignment="Left" FontSize="16"/>
+          <Button Name="Donut" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Donut" HorizontalContentAlignment="Left" FontSize="16"/>
+          <Button Name="MultiD" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Multi Donut" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Name="MenuPanel5" Margin="0,0,0,0" Width="300">
+          <Button Name="Points" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Points_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Points" Foreground="White" Width="280"/>
+              <Image Source="/StandardSeriesWPFDemo;component/Resources/down.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="ProductS" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Product Shipments" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Name="MenuPanel6" Margin="0,0,0,0" Width="300">
+          <Button Name="Gantt" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Gantt_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Gantt" Foreground="White" Width="280"/>
+              <Image Source="/StandardSeriesWPFDemo;component/Resources/down.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="ProjectP" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Project Planner" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Name="MenuPanel7" Margin="0,0,0,0" Width="300">
+          <Button Name="Bubbles" Margin="0,0,0,0" Background="DimGray" Width="300" HorizontalContentAlignment="Left" Click="Bubbles_Click" FontSize="18">
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="Bubbles" Foreground="White" Width="280"/>
+              <Image Source="/StandardSeriesWPFDemo;component/Resources/down.png" />
+            </StackPanel>
+          </Button>
+          <Button Name="PopularC" Margin="0,0,0,0" Background="DarkGray" Foreground="White" Width="300" Content="Popular Coding Languages" HorizontalContentAlignment="Left" FontSize="16"/>
+        </StackPanel>
+      </StackPanel>
+      <Grid Margin="0,0,0,0" Width="690" Height="720">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <wpf:TChart Name="tChart1" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <wpf:TChart Name="tChart2" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <wpf:TChart Name="tChart3" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <wpf:TChart Name="tChart4" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <wpf:TChart Name="tChart5" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <wpf:TChart Name="tChart6" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <wpf:TChart Name="tChart7" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+      </Grid>
+    </StackPanel>
+  </Grid>
+</Window>

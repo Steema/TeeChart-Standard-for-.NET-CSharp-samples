@@ -1,0 +1,112 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 770
+  Height = 202
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  BackWall.Visible = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginBottom = 1
+  MarginLeft = 2
+  MarginRight = 2
+  MarginTop = 2
+  RightWall.Color = 14745599
+  Title.Alignment = taLeftJustify
+  Title.Font.Color = clGray
+  Title.Font.Height = -16
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Active Servers')
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Axis.Width = 1
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.LabelsFormat.Font.Color = clGray
+  BottomAxis.LabelsFormat.Font.Name = 'Segoe UI'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Axis.Visible = False
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.Grid.Visible = False
+  LeftAxis.LabelsFormat.Font.Color = clGray
+  LeftAxis.LabelsFormat.Font.Name = 'Segoe UI'
+  LeftAxis.MinorTicks.Visible = False
+  LeftAxis.Ticks.Color = -8355712
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Alignment = laBottom
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Transparent = True
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  BevelOuter = bvNone
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: THorizBarSeries
+    BarPen.Visible = False
+    Marks.Visible = False
+    Title = 'Server 1'
+    XValues.Name = 'Bar'
+    XValues.Order = loNone
+    YValues.Name = 'Y'
+    YValues.Order = loAscending
+    Data = {
+      000600000000000000006885400000000000F886400000000000148940000000
+      0000D086400000000000C483400000000000048040}
+  end
+  object Series1: THorizBarSeries
+    BarPen.Visible = False
+    Marks.Visible = False
+    Title = 'Server 2'
+    XValues.Name = 'Bar'
+    XValues.Order = loNone
+    YValues.Name = 'Y'
+    YValues.Order = loAscending
+    Data = {
+      000600000000000000001449406866666666162C40CCCCCCCCCC105540000000
+      00001044403433333333174D403433333333995F40}
+  end
+  object Series2: THorizBarSeries
+    BarPen.Visible = False
+    Marks.Visible = False
+    Title = 'Server 3'
+    XValues.Name = 'Bar'
+    XValues.Order = loNone
+    YValues.Name = 'Y'
+    YValues.Order = loAscending
+    Data = {
+      000600000066666666660E52409A99999999975D4000000000008E51409A9999
+      9999155B400000000000183E403333333333174D40}
+  end
+end

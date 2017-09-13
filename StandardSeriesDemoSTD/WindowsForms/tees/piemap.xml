@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Pie" color="#FF9966">
+<points count="8">
+<point index="0" text="Cars" color="#33B5E5" Pie="188"/>
+<point index="1" text="Phones" color="#AA66CC" Pie="299"/>
+<point index="2" text="Tables" color="#99CC00" Pie="615"/>
+<point index="3" text="Monitors" color="#FFBB33" Pie="630"/>
+<point index="4" text="Lamps" color="#FF4444" Pie="337"/>
+<point index="5" text="Keyboards" color="#0099CC" Pie="571"/>
+<point index="6" text="Bikes" color="#9933CC" Pie="77"/>
+<point index="7" text="Chairs" color="#669900" Pie="823"/>
+</points>
+</series>
+
+</chart>

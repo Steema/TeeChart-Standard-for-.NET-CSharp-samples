@@ -1,0 +1,259 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 748
+  Height = 361
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Pen.Visible = False
+  BackWall.Transparent = False
+  BackWall.Visible = False
+  BottomWall.Brush.Gradient.EndColor = clSilver
+  BottomWall.Brush.Gradient.StartColor = clGray
+  BottomWall.Brush.Gradient.Visible = True
+  BottomWall.Pen.Color = clGray
+  BottomWall.Transparent = True
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdFromTopLeft
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.StartColor = 15395562
+  Gradient.Visible = True
+  LeftWall.Brush.Gradient.EndColor = clSilver
+  LeftWall.Brush.Gradient.StartColor = clGray
+  LeftWall.Brush.Gradient.Visible = True
+  LeftWall.Color = clWhite
+  LeftWall.Pen.Color = clGray
+  LeftWall.Transparent = True
+  RightWall.Color = 14745599
+  RightWall.Transparent = True
+  Title.Font.Color = clBlack
+  Title.Font.Height = -19
+  Title.Font.Name = 'Roboto Th'
+  Title.Font.Style = [fsBold]
+  Title.Font.Shadow.Color = clGray
+  Title.Font.Shadow.HorizSize = 1
+  Title.Font.Shadow.SmoothBlur = 2
+  Title.Font.Shadow.VertSize = 1
+  Title.Text.Strings = (
+    'Stock Monitoring')
+  Title.VertMargin = 13
+  BottomAxis.Axis.Color = 7237230
+  BottomAxis.Axis.Width = 0
+  BottomAxis.DateTimeFormat = 'yyyy-mm-dd'
+  BottomAxis.Grid.Color = 14540253
+  BottomAxis.Grid.Visible = False
+  BottomAxis.LabelsFormat.Font.Color = clGray
+  BottomAxis.LabelsFormat.Font.Height = -16
+  BottomAxis.LabelsFormat.Font.Name = 'Segoe UI'
+  BottomAxis.MinorTicks.Visible = False
+  BottomAxis.Ticks.Color = -8355712
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.TicksInner.Visible = False
+  BottomAxis.Title.Font.Height = -13
+  BottomAxis.Title.Font.Name = 'Roboto Th'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Height = -13
+  DepthAxis.Title.Font.Name = 'Roboto Th'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Height = -13
+  DepthTopAxis.Title.Font.Name = 'Roboto Th'
+  Frame.Visible = False
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Axis.Width = 0
+  LeftAxis.Axis.Visible = False
+  LeftAxis.Grid.Color = 14540253
+  LeftAxis.LabelsFormat.Font.Color = clGray
+  LeftAxis.LabelsFormat.Font.Height = -16
+  LeftAxis.LabelsFormat.Font.Name = 'Segoe UI'
+  LeftAxis.MinorTicks.Visible = False
+  LeftAxis.TickLength = 7
+  LeftAxis.Ticks.Color = -8355712
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.TicksInner.Visible = False
+  LeftAxis.Title.Caption = 'Quote'
+  LeftAxis.Title.Font.Color = clGray
+  LeftAxis.Title.Font.Height = -13
+  LeftAxis.Title.Font.Name = 'Segoe UI'
+  Legend.Alignment = laBottom
+  Legend.Font.Color = clGray
+  Legend.Font.Height = -13
+  Legend.Font.Name = 'Segoe UI'
+  Legend.Frame.Visible = False
+  Legend.Shadow.Transparency = 0
+  Legend.Shadow.Visible = False
+  Legend.Symbol.Pen.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Axis.Width = 0
+  RightAxis.Grid.Color = 11119017
+  RightAxis.Grid.Visible = False
+  RightAxis.LabelsFormat.Font.Color = clGray
+  RightAxis.LabelsFormat.Font.Height = -31
+  RightAxis.LabelsFormat.Font.Name = 'Roboto Th'
+  RightAxis.MinorTicks.Visible = False
+  RightAxis.Ticks.Visible = False
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Height = -13
+  RightAxis.Title.Font.Name = 'Roboto Th'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Height = -13
+  TopAxis.Title.Font.Name = 'Roboto Th'
+  View3D = False
+  View3DOptions.Elevation = 350
+  View3DOptions.Perspective = 55
+  BevelOuter = bvNone
+  BevelWidth = 2
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TLineSeries
+    Marks.Font.Height = -24
+    Marks.Font.Name = 'Roboto Th'
+    Marks.Transparent = True
+    Marks.Arrow.Visible = False
+    Marks.Callout.Arrow.Visible = False
+    Marks.Callout.ArrowHead = ahLine
+    Marks.Callout.Distance = 8
+    Marks.Callout.Length = 0
+    SeriesColor = 6724095
+    Title = 'Portfolio 1'
+    ValueFormat = '#.##0,###'
+    LinePen.Width = 3
+    Pointer.HorizSize = 6
+    Pointer.InflateMargins = True
+    Pointer.Pen.Color = 4227327
+    Pointer.Pen.Width = 3
+    Pointer.Style = psCircle
+    Pointer.VertSize = 6
+    Pointer.Visible = True
+    XValues.DateTime = True
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Data = {
+      011900000000000000C089E440000000000080464000000000E089E440000000
+      000010634000000000008AE440000000000010634000000000208AE440000000
+      0000A0694000000000408AE4400000000000A0594000000000608AE440000000
+      0000605D4000000000808AE440000000000080514000000000A08AE440000000
+      0000E0554000000000C08AE4400000000000005E4000000000E08AE440000000
+      0000C0474000000000008BE440000000000000044000000000208BE440000000
+      000000244000000000408BE4400000000000001E4000000000608BE440000000
+      0000C05C4000000000808BE4400000000000E0604000000000A08BE440000000
+      000040604000000000C08BE440000000000000594000000000E08BE440000000
+      0000306B4000000000008CE4400000000000B0684000000000208CE440000000
+      000050644000000000408CE4400000000000E0704000000000608CE440000000
+      000090754000000000808CE4400000000000E07A4000000000A08CE440000000
+      0000587B4000000000C08CE4400000000000088140}
+  end
+  object Series1: TLineSeries
+    Marks.Font.Height = -24
+    Marks.Font.Name = 'Roboto Th'
+    Marks.Transparent = True
+    Marks.Arrow.Visible = False
+    Marks.Callout.Arrow.Visible = False
+    Marks.Callout.ArrowHead = ahLine
+    Marks.Callout.Distance = 8
+    Marks.Callout.Length = 0
+    SeriesColor = 16744448
+    Title = 'Portfolio 2'
+    ValueFormat = '#.##0,###'
+    LinePen.Width = 3
+    Pointer.HorizSize = 6
+    Pointer.InflateMargins = True
+    Pointer.Pen.Color = 16744448
+    Pointer.Pen.Width = 3
+    Pointer.Style = psCircle
+    Pointer.VertSize = 6
+    Pointer.Visible = True
+    XValues.DateTime = True
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Transparency = 2
+    Data = {
+      011900000000000000C089E4400000000080667D4000000000E089E440CDCCCC
+      CC4C327B4000000000008AE440676666666636774000000000208AE440000000
+      0080027A4000000000408AE4409A999999991C7B4000000000608AE4409A9999
+      9919FE784000000000808AE440CDCCCCCC4CF5764000000000A08AE4409A9999
+      9919E8734000000000C08AE440CDCCCCCCCC88764000000000E08AE440CDCCCC
+      CCCC24734000000000008BE44000000000001C714000000000208BE440000000
+      0080AF704000000000408BE44066666666E63E744000000000608BE440666666
+      66E63E744000000000808BE44066666666E601704000000000A08BE440000000
+      008088714000000000C08BE44066666666E63E744000000000E08BE440CCCCCC
+      CC4CCE774000000000008CE4409999999999B8774000000000208CE440323333
+      3333F17A4000000000408CE440CCCCCCCC4C597A4000000000608CE440FFFFFF
+      FF7F9E764000000000808CE4409899999919FE784000000000A08CE440FEFFFF
+      FF7F027A4000000000C08CE440FEFFFFFFFFF97C40}
+  end
+  object Series2: TLineSeries
+    Marks.Font.Height = -24
+    Marks.Font.Name = 'Roboto Th'
+    Marks.Transparent = True
+    Marks.Arrow.Visible = False
+    Marks.Callout.Arrow.Visible = False
+    Marks.Callout.ArrowHead = ahLine
+    Marks.Callout.Distance = 8
+    Marks.Callout.Length = 0
+    SeriesColor = 8454016
+    Title = 'Portfolio 3'
+    ValueFormat = '#.##0,###'
+    LinePen.Width = 3
+    Pointer.HorizSize = 6
+    Pointer.InflateMargins = True
+    Pointer.Pen.Color = 8454016
+    Pointer.Pen.Width = 3
+    Pointer.Style = psCircle
+    Pointer.VertSize = 6
+    Pointer.Visible = True
+    XValues.DateTime = True
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Data = {
+      011900000000000000C089E440999999991984704000000000E089E440000000
+      0000F5714000000000008AE440CDCCCCCC4C2D704000000000208AE4409A9999
+      99190F734000000000408AE44067666666E601704000000000608AE4409A9999
+      9999F66C4000000000808AE4409A9999999917704000000000A08AE440CECCCC
+      CCCC2A6F4000000000C08AE4409A99999999E0674000000000E08AE440CDCCCC
+      CCCCD7654000000000008BE4403433333333DC664000000000208BE440686666
+      6666765E4000000000408BE4409A99999999A3634000000000608BE440CDCCCC
+      CCCC73624000000000808BE440343333333351644000000000A08BE440CECCCC
+      CCCC73624000000000C08BE4400200000000AA564000000000E08BE440CECCCC
+      CCCC73624000000000008CE440D0CCCCCCCC4E554000000000208CE440363333
+      3333B7594000000000408CE440343333333314604000000000608CE440000000
+      00000C684000000000808CE4403433333333B5674000000000A08CE4409A9999
+      9999CA624000000000C08CE4409A999999992E6640}
+  end
+  object ChartTool0: TMarksTipTool
+    Format.Color = 4227327
+    Format.CustomPosition = True
+    Format.Font.Color = clGray
+    Format.Font.Height = -28
+    Format.Left = 0
+    Format.TextAlignment = taCenter
+    Format.Top = 0
+    Format.Transparent = True
+    Format.Visible = False
+    HideDelay = 2000
+    MouseDelay = 100
+  end
+  object ChartAnimation0: TTeeAnimationTool
+    object TLineAnimation
+    end
+  end
+end

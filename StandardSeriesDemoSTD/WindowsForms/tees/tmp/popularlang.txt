@@ -1,0 +1,95 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 1094
+  Height = 660
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  BackWall.Visible = False
+  Foot.Alignment = taLeftJustify
+  Foot.Font.Color = clGray
+  Foot.Font.Name = 'Verdana'
+  Foot.Text.Strings = (
+    'Data from @codeeval')
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  RightWall.Color = 14745599
+  Title.Font.Color = clGray
+  Title.Font.Height = -36
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Most popular coding languages of 2014')
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Font.Color = clGray
+  Legend.Font.Height = -19
+  Legend.Frame.SmallDots = True
+  Legend.Shadow.Transparency = 0
+  Legend.TextStyle = ltsPlain
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series1: TBubbleCloudSeries
+    Marks.Font.Color = clGray
+    Marks.Font.Height = -13
+    Marks.Font.Name = 'Segoe UI'
+    Marks.Font.SizeFloat = 10.083333015441890000
+    Marks.Transparent = True
+    Marks.Visible = True
+    Title = 'Languages'
+    Pen.SmallDots = True
+    UseColorRange = False
+    UsePalette = True
+    XValues.Name = 'X'
+    XValues.Order = loNone
+    YValues.Name = 'Y'
+    YValues.Order = loDescending
+    Rotation = 5
+    Separation = 51
+    SizeRatio = 1.440000000000000000
+    Data = {
+      040A00000000000000005C9240FF06000000507974686F6ECDCCCCCCCC4C3E40
+      0000000000EA9040FF040000004A61766133333333333336400000000000D690
+      40FF03000000432B2B0000000000002A4000000000007C9040FF040000005275
+      6279333333333333254000000000004A9040FF0A0000004A6176615363726970
+      74CDCCCCCCCCCC144000000000002C9040FF0200000043230000000000001440
+      00000000002C9040FF010000004366666666666610400000000000CC8F40FF03
+      0000005048506666666666660A400000000000688F40FF040000005065726C9A
+      9999999999F93F0000000000788E40FF02000000476F000000000000F83F}
+  end
+end

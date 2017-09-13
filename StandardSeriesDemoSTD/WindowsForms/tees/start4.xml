@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Bubble" color="#4466A3">
+<points count="6">
+<point index="0" color="#4466A3" Y="501" Radius="166.666666666667"/>
+<point index="1" color="#4466A3" Y="881" Radius="500"/>
+<point index="2" color="#4466A3" Y="947" Radius="220"/>
+<point index="3" color="#4466A3" Y="385" Radius="450"/>
+<point index="4" color="#4466A3" Y="516" Radius="166.666666666667"/>
+<point index="5" color="#4466A3" Y="947" Radius="370"/>
+</points>
+</series>
+
+</chart>

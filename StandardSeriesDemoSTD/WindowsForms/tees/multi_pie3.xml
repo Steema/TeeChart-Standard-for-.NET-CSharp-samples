@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Pie" color="#4466A3">
+<points count="2">
+<point index="0" text="Women" color="#4466A3" Pie="65"/>
+<point index="1" text="Men" color="#F39C35" Pie="30"/>
+</points>
+</series>
+
+</chart>

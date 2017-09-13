@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<chart>
+<series title="Series0" type="Donut" color="#4466A3">
+<points count="2">
+<point index="0" Pie="1500"/>
+<point index="1" Pie="500"/>
+</points>
+</series>
+
+</chart>

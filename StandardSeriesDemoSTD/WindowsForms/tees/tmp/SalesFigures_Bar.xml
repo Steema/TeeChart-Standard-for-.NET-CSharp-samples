@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Bar" color="#FF8040">
+<points count="0">
+</points>
+</series>
+
+<series title="Series1" type="Bar" color="#FFAE1B">
+<points count="0">
+</points>
+</series>
+
+</chart>

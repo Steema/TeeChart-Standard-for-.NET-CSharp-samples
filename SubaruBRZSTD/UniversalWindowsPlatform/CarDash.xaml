@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="SaburuBRZUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SaburuBRZUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:Store="using:Steema.TeeChart.Store"
+  mc:Ignorable="d" Height="1000" Width="1500">
+
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Image Source="Resources/subaru_template.png"/>
+    <Store:TChart Name="revChart" Margin="450, 140, 390, 200"/>
+    <Store:TChart Name="speedChart" Margin="-50, 270, 900, 140"/>
+  </Grid>
+</Page>

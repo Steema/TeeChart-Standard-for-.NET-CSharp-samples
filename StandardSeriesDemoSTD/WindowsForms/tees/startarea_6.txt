@@ -1,0 +1,134 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 574
+  Height = 200
+  AllowPanning = pmHorizontal
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = 13850042
+  Gradient.MidColor = 13850042
+  Gradient.StartColor = 13850042
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginBottom = 2
+  MarginLeft = 2
+  MarginRight = 2
+  MarginTop = 0
+  RightWall.Color = 14745599
+  Title.Alignment = taRightJustify
+  Title.Font.Color = clWhite
+  Title.Font.Height = -31
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Areas and Points')
+  BottomAxis.Automatic = False
+  BottomAxis.AutomaticMaximum = False
+  BottomAxis.AutomaticMinimum = False
+  BottomAxis.Axis.Color = clWhite
+  BottomAxis.Axis.Width = 1
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.Increment = 10.000000000000000000
+  BottomAxis.LabelsFormat.Font.Color = clWhite
+  BottomAxis.LabelsFormat.Font.Height = -13
+  BottomAxis.LabelsFormat.Font.Name = 'Segoe UI'
+  BottomAxis.Maximum = 20.000000000000000000
+  BottomAxis.Minimum = 5.000000000000000000
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.MaximumOffset = 3
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Visible = False
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  View3DWalls = False
+  Color = 13850042
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TAreaSeries
+    Gradient.EndColor = 13850042
+    Gradient.Visible = True
+    AreaChartBrush.Color = clGray
+    AreaChartBrush.BackColor = clDefault
+    AreaChartBrush.Gradient.EndColor = 13850042
+    AreaChartBrush.Gradient.Visible = True
+    AreaLinesPen.Visible = False
+    DrawArea = True
+    DrawStyle = dsCurve
+    LinePen.Color = clWhite
+    Pointer.InflateMargins = True
+    Pointer.Style = psRectangle
+    Pointer.Visible = False
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Data = {
+      001900000007AC1C5AC4B384406BE7FBA991BA844075BE9F1A8F988440716891
+      ED1CFC83405CBA490C224084400C2DB29D4FF58340CCF753E325738440598FC2
+      F5E8F183406B1283C0AA5F834029B29DEF478F834037DF4F8DB70984400E83C0
+      CAC191844010AE47E1FADF84404FE3A59B24628440C8CCCCCCEC24844007022B
+      8716A7834096C420B01274834040B6F3FDB4E7834035DF4F8DB7098440318941
+      60456D8340E551B81EE5BE83405139B4C876558340C8F753E305CA8240B3490C
+      020B0E8340776ABC74337F8240}
+  end
+  object Series1: TAreaSeries
+    Gradient.EndColor = 13850042
+    Gradient.Visible = True
+    AreaChartBrush.Color = clGray
+    AreaChartBrush.BackColor = clDefault
+    AreaChartBrush.Gradient.EndColor = 13850042
+    AreaChartBrush.Gradient.Visible = True
+    AreaLinesPen.Visible = False
+    DrawArea = True
+    DrawStyle = dsCurve
+    LinePen.Color = clWhite
+    Pointer.InflateMargins = True
+    Pointer.Style = psRectangle
+    Pointer.Visible = False
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Data = {
+      00190000001AAB5B3DDDCF82405FB8019F57CE82401F19390B9BE082403E2A8C
+      2D00FC8240220AF489663A8340612C9ACE30718340D88E705A2E2B8340F231E6
+      AED5358340411B47ACCB558340FE8AC399430E834003F9A067011F8340DF7970
+      77DEF282402E63D174D41283409C5D85942F4E8340AD24404D5B378340017C7E
+      180F6883408A19A88C11AE8340DB7F2BD9F9848340124339D13A51834006EA5B
+      E6CC7883409BE062453D978340AA2AFBAE76C98340651D554DFCCA8340DF70E6
+      57C5DE834063A032FE09148440}
+  end
+end

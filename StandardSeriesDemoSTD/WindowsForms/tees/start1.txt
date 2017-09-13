@@ -1,0 +1,132 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 574
+  Height = 286
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Alignment = taLeftJustify
+  Foot.Font.Color = clWhite
+  Foot.Font.Height = -33
+  Foot.Font.Name = 'Segoe UI'
+  Foot.Text.Strings = (
+    'Bars and Lines')
+  Foot.Visible = False
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = 11193702
+  Gradient.MidColor = 11193702
+  Gradient.StartColor = 11193702
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginTop = 19
+  RightWall.Color = 14745599
+  Title.Alignment = taLeftJustify
+  Title.CustomPosition = True
+  Title.Font.Color = clWhite
+  Title.Font.Height = -41
+  Title.Font.Name = 'Segoe UI'
+  Title.Left = 0
+  Title.Text.Strings = (
+    'Bars and Lines')
+  Title.Top = 0
+  BottomAxis.Axis.Color = clWhite
+  BottomAxis.Axis.Width = 1
+  BottomAxis.Axis.SmallDots = True
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.Grid.Visible = False
+  BottomAxis.Labels = False
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.LabelsFormat.Visible = False
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Axis.Visible = False
+  LeftAxis.ExactDateTime = False
+  LeftAxis.Grid.Color = clWhite
+  LeftAxis.Grid.SmallDots = True
+  LeftAxis.Increment = 25.000000000000000000
+  LeftAxis.LabelsFormat.Font.Color = clWhite
+  LeftAxis.LabelsFormat.Font.Height = -13
+  LeftAxis.LabelsFormat.Font.Name = 'Segoe UI'
+  LeftAxis.MinorTicks.Visible = False
+  LeftAxis.Ticks.Color = -8355712
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.TicksInner.Visible = False
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  View3DWalls = False
+  Color = 11193702
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TBarSeries
+    BarBrush.Gradient.EndColor = clWhite
+    BarBrush.Gradient.StartColor = 11193702
+    BarBrush.Gradient.Visible = True
+    BarPen.Visible = False
+    Marks.Font.Color = 11193702
+    Marks.Frame.Visible = False
+    Marks.Shadow.Visible = False
+    Marks.Arrow.Visible = False
+    Marks.BackColor = clWhite
+    Marks.Callout.Arrow.Visible = False
+    Marks.Callout.Length = 9
+    Marks.Color = clWhite
+    SeriesColor = clWhite
+    BarStyle = bsRoundRectangle
+    Gradient.EndColor = clWhite
+    Gradient.StartColor = 11193702
+    Gradient.Visible = True
+    Shadow.Visible = False
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Bar'
+    YValues.Order = loNone
+    Data = {
+      0005000000000000000000344000000000000049400000000000002440000000
+      00008051400000000000804640}
+  end
+  object Series1: TLineSeries
+    SeriesColor = clWhite
+    DrawStyle = dsCurve
+    LinePen.Width = 2
+    Pointer.InflateMargins = True
+    Pointer.Style = psRectangle
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Data = {
+      010A000000000000000000000000000000008046401CC7711CC771DC3F000000
+      0000804B401CC7711CC771EC3F0000000000C05240555555555555F53F000000
+      00004050401CC7711CC771FC3F0000000000804640721CC7711CC70140000000
+      0000005440565555555555054000000000004055403A8EE3388EE30840000000
+      00008058401EC7711CC7710C400000000000C052400100000000001040000000
+      0000005140}
+  end
+end

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Server 1" type="HorizontalBar" color="#4466A3">
+<points count="6">
+<point index="0" color="#4466A3" Bar="685"/>
+<point index="1" color="#4466A3" Bar="735"/>
+<point index="2" color="#4466A3" Bar="802.5"/>
+<point index="3" color="#4466A3" Bar="730"/>
+<point index="4" color="#4466A3" Bar="632.5"/>
+<point index="5" color="#4466A3" Bar="512.5"/>
+</points>
+</series>
+
+<series title="Server 2" type="HorizontalBar" color="#F39C35">
+<points count="6">
+<point index="0" color="#F39C35" Bar="50.15625"/>
+<point index="1" color="#F39C35" Bar="14.04375"/>
+<point index="2" color="#F39C35" Bar="84.2625"/>
+<point index="3" color="#F39C35" Bar="40.125"/>
+<point index="4" color="#F39C35" Bar="58.18125"/>
+<point index="5" color="#F39C35" Bar="126.39375"/>
+</points>
+</series>
+
+<series title="Server 3" type="HorizontalBar" color="#F14C14">
+<points count="6">
+<point index="0" color="#F14C14" Bar="72.225"/>
+<point index="1" color="#F14C14" Bar="118.36875"/>
+<point index="2" color="#F14C14" Bar="70.21875"/>
+<point index="3" color="#F14C14" Bar="108.3375"/>
+<point index="4" color="#F14C14" Bar="30.09375"/>
+<point index="5" color="#F14C14" Bar="58.18125"/>
+</points>
+</series>
+
+</chart>

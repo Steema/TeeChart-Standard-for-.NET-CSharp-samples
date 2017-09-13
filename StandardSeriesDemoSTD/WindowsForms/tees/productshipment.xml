@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Point" color="#FF9966">
+<points count="25">
+<point index="0" color="#FF9966" Y="745"/>
+<point index="1" color="#FF9966" Y="620"/>
+<point index="2" color="#FF9966" Y="500"/>
+<point index="3" color="#FF9966" Y="427.5"/>
+<point index="4" color="#FF9966" Y="550"/>
+<point index="5" color="#FF9966" Y="595"/>
+<point index="6" color="#FF9966" Y="707.5"/>
+<point index="7" color="#FF9966" Y="602.5"/>
+<point index="8" color="#FF9966" Y="482.5"/>
+<point index="9" color="#FF9966" Y="580"/>
+<point index="10" color="#FF9966" Y="582.5"/>
+<point index="11" color="#FF9966" Y="595"/>
+<point index="12" color="#FF9966" Y="662.5"/>
+<point index="13" color="#FF9966" Y="625"/>
+<point index="14" color="#FF9966" Y="652.5"/>
+<point index="15" color="#FF9966" Y="702.5"/>
+<point index="16" color="#FF9966" Y="722.5"/>
+<point index="17" color="#FF9966" Y="825"/>
+<point index="18" color="#FF9966" Y="782.5"/>
+<point index="19" color="#FF9966" Y="822.5"/>
+<point index="20" color="#FF9966" Y="877.5"/>
+<point index="21" color="#FF9966" Y="842.5"/>
+<point index="22" color="#FF9966" Y="927.5"/>
+<point index="23" color="#FF9966" Y="825"/>
+<point index="24" color="#FF9966" Y="825"/>
+</points>
+</series>
+
+<series title="Series1" type="Point" color="#FF9966">
+<points count="25">
+<point index="0" color="#FF9966" Y="503.75"/>
+<point index="1" color="#FF9966" Y="547.5"/>
+<point index="2" color="#FF9966" Y="600"/>
+<point index="3" color="#FF9966" Y="582.5"/>
+<point index="4" color="#FF9966" Y="596.25"/>
+<point index="5" color="#FF9966" Y="587.5"/>
+<point index="6" color="#FF9966" Y="627.5"/>
+<point index="7" color="#FF9966" Y="656.25"/>
+<point index="8" color="#FF9966" Y="636.25"/>
+<point index="9" color="#FF9966" Y="646.25"/>
+<point index="10" color="#FF9966" Y="673.75"/>
+<point index="11" color="#FF9966" Y="731.25"/>
+<point index="12" color="#FF9966" Y="682.5"/>
+<point index="13" color="#FF9966" Y="705"/>
+<point index="14" color="#FF9966" Y="720"/>
+<point index="15" color="#FF9966" Y="715"/>
+<point index="16" color="#FF9966" Y="760"/>
+<point index="17" color="#FF9966" Y="732.5"/>
+<point index="18" color="#FF9966" Y="775"/>
+<point index="19" color="#FF9966" Y="826.25"/>
+<point index="20" color="#FF9966" Y="767.5"/>
+<point index="21" color="#FF9966" Y="716.25"/>
+<point index="22" color="#FF9966" Y="758.75"/>
+<point index="23" color="#FF9966" Y="738.75"/>
+<point index="24" color="#FF9966" Y="678.75"/>
+</points>
+</series>
+
+<series title="Series2" type="Fast Line" color="#FF9966">
+<points count="25">
+<point index="0" color="#FF9966" Y="624.375"/>
+<point index="1" color="#FF9966" Y="583.75"/>
+<point index="2" color="#FF9966" Y="550"/>
+<point index="3" color="#FF9966" Y="505"/>
+<point index="4" color="#FF9966" Y="573.125"/>
+<point index="5" color="#FF9966" Y="591.25"/>
+<point index="6" color="#FF9966" Y="667.5"/>
+<point index="7" color="#FF9966" Y="629.375"/>
+<point index="8" color="#FF9966" Y="559.375"/>
+<point index="9" color="#FF9966" Y="613.125"/>
+<point index="10" color="#FF9966" Y="628.125"/>
+<point index="11" color="#FF9966" Y="663.125"/>
+<point index="12" color="#FF9966" Y="672.5"/>
+<point index="13" color="#FF9966" Y="665"/>
+<point index="14" color="#FF9966" Y="686.25"/>
+<point index="15" color="#FF9966" Y="708.75"/>
+<point index="16" color="#FF9966" Y="741.25"/>
+<point index="17" color="#FF9966" Y="778.75"/>
+<point index="18" color="#FF9966" Y="778.75"/>
+<point index="19" color="#FF9966" Y="824.375"/>
+<point index="20" color="#FF9966" Y="822.5"/>
+<point index="21" color="#FF9966" Y="779.375"/>
+<point index="22" color="#FF9966" Y="843.125"/>
+<point index="23" color="#FF9966" Y="781.875"/>
+<point index="24" color="#FF9966" Y="751.875"/>
+</points>
+</series>
+
+<series title="Average" type="Line" color="#0080C0">
+<points count="25">
+<point index="0" color="#0080C0" Y="623.75"/>
+<point index="1" color="#0080C0" Y="643.75"/>
+<point index="2" color="#0080C0" Y="685"/>
+<point index="3" color="#0080C0" Y="712.5"/>
+<point index="4" color="#0080C0" Y="687.5"/>
+<point index="5" color="#0080C0" Y="662.5"/>
+<point index="6" color="#0080C0" Y="635"/>
+<point index="7" color="#0080C0" Y="607.5"/>
+<point index="8" color="#0080C0" Y="553.75"/>
+<point index="9" color="#0080C0" Y="522.5"/>
+<point index="10" color="#0080C0" Y="530"/>
+<point index="11" color="#0080C0" Y="590"/>
+<point index="12" color="#0080C0" Y="538.75"/>
+<point index="13" color="#0080C0" Y="578.75"/>
+<point index="14" color="#0080C0" Y="602.5"/>
+<point index="15" color="#0080C0" Y="597.5"/>
+<point index="16" color="#0080C0" Y="575"/>
+<point index="17" color="#0080C0" Y="573.75"/>
+<point index="18" color="#0080C0" Y="577.5"/>
+<point index="19" color="#0080C0" Y="561.25"/>
+<point index="20" color="#0080C0" Y="506.25"/>
+<point index="21" color="#0080C0" Y="518.75"/>
+<point index="22" color="#0080C0" Y="530"/>
+<point index="23" color="#0080C0" Y="491.25"/>
+<point index="24" color="#0080C0" Y="476.25"/>
+</points>
+</series>
+
+</chart>

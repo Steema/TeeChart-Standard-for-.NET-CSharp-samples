@@ -1,0 +1,138 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 527
+  Height = 237
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = 42495
+  Gradient.MidColor = 42495
+  Gradient.StartColor = 42495
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginBottom = 0
+  MarginLeft = 0
+  MarginRight = 0
+  MarginTop = 0
+  RightWall.Color = 14745599
+  Title.Alignment = taLeftJustify
+  Title.Font.Color = clWhite
+  Title.Font.Height = -31
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Bubbles and Gantt styles')
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Axis.Visible = False
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.Grid.Fill.Gradient.EndColor = 42495
+  BottomAxis.Grid.Fill.Gradient.Visible = True
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.LabelsFormat.Transparency = 100
+  BottomAxis.MinorTicks.Visible = False
+  BottomAxis.Ticks.Visible = False
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Axis.Visible = False
+  LeftAxis.Grid.Color = clWhite
+  LeftAxis.Grid.Fill.Gradient.Direction = gdRadial
+  LeftAxis.Grid.Fill.Gradient.EndColor = 42495
+  LeftAxis.Grid.Fill.Gradient.Visible = True
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.LabelsFormat.Transparency = 100
+  LeftAxis.MinorTicks.Visible = False
+  LeftAxis.Ticks.Visible = False
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.TicksInner.Visible = False
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.TicksInner.Visible = False
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  View3DWalls = False
+  Color = 42495
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TBubbleSeries
+    ColorEachPoint = False
+    Marks.Transparent = False
+    ClickableLine = False
+    Pointer.Brush.Gradient.Colors = <
+      item
+        Color = 42495
+      end
+      item
+        Color = clWhite
+        Offset = 1.000000000000000000
+      end
+      item
+        Color = 10708548
+        Offset = 1.000000000000000000
+      end>
+    Pointer.Brush.Gradient.Direction = gdDiagonalUp
+    Pointer.Brush.Gradient.EndColor = 10708548
+    Pointer.Brush.Gradient.MidColor = clWhite
+    Pointer.Brush.Gradient.StartColor = 42495
+    Pointer.Brush.Gradient.Visible = True
+    Pointer.Gradient.Colors = <
+      item
+        Color = 42495
+      end
+      item
+        Color = clWhite
+        Offset = 1.000000000000000000
+      end
+      item
+        Color = 10708548
+        Offset = 1.000000000000000000
+      end>
+    Pointer.Gradient.Direction = gdDiagonalUp
+    Pointer.Gradient.EndColor = 10708548
+    Pointer.Gradient.MidColor = clWhite
+    Pointer.Gradient.StartColor = 42495
+    Pointer.Gradient.Visible = True
+    Pointer.HorizSize = 34
+    Pointer.InflateMargins = True
+    Pointer.Pen.Visible = False
+    Pointer.Style = psCircle
+    Pointer.VertSize = 34
+    XValues.Name = 'X'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    RadiusValues.Name = 'Radius'
+    RadiusValues.Order = loNone
+    Data = {
+      00060000000000000000507F405655555555D564400000000000888B40000000
+      0000407F400000000000988D400000000000806B400000000000107840000000
+      0000207C4000000000002080405655555555D564400000000000988D40000000
+      0000207740}
+  end
+end

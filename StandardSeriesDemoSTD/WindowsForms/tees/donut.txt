@@ -1,0 +1,93 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 752
+  Height = 400
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.StartColor = 15395562
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  RightWall.Color = 14745599
+  Title.Alignment = taLeftJustify
+  Title.Font.Color = clGray
+  Title.Font.Height = -21
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Countries by Area')
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Font.Height = -19
+  Legend.Font.Name = 'Segoe UI'
+  Legend.Shadow.Transparency = 0
+  Legend.TextStyle = ltsPlain
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  View3DOptions.Elevation = 315
+  View3DOptions.Orthogonal = False
+  View3DOptions.Perspective = 0
+  View3DOptions.Rotation = 360
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 17
+  object Series0: TDonutSeries
+    Selected.Hover.Visible = False
+    Marks.Transparent = True
+    Marks.Margins.Left = 15
+    Marks.Margins.Top = 7
+    Marks.Style = smsLabelPercent
+    Marks.Arrow.Color = clSilver
+    Marks.Callout.Arrow.Color = clSilver
+    Marks.Callout.Distance = 3
+    Marks.Callout.Length = 14
+    XValues.Order = loAscending
+    YValues.Name = 'Pie'
+    YValues.Order = loNone
+    Bevel.Percent = 6
+    BevelPercent = 6
+    OtherSlice.Legend.Visible = False
+    PieMarks.LegSize = 31
+    PieMarks.VertCenter = True
+    PiePen.Visible = False
+    Data = {
+      0406000000CDCCCCCCCC4C3B40FF060000005275737369610000000000003040
+      FF0600000043616E616461CDCCCCCCCCCC2E40FF050000004368696E61CDCCCC
+      CCCCCC2E40FF0D000000556E69746564205374617465733333333333332B40FF
+      060000004272617A696C9A99999999992840FF090000004175737472616C6961}
+  end
+end

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<chart>
+<series title="Speed" type="Line" color="#4466A3">
+<points count="6">
+<point index="0" Y="220"/>
+<point index="1" Y="150"/>
+<point index="2" Y="135"/>
+<point index="3" Y="190"/>
+<point index="4" Y="210"/>
+<point index="5" Y="200"/>
+</points>
+</series>
+
+<series title="Time" type="Line" color="#06BF59">
+<points count="6">
+<point index="0" Y="100"/>
+<point index="1" Y="70"/>
+<point index="2" Y="100"/>
+<point index="3" Y="150"/>
+<point index="4" Y="110"/>
+<point index="5" Y="24"/>
+</points>
+</series>
+
+<series title="Visitors" type="Line" color="#EE1122">
+<points count="6">
+<point index="0" Y="100"/>
+<point index="1" Y="130"/>
+<point index="2" Y="80"/>
+<point index="3" Y="130"/>
+<point index="4" Y="126"/>
+<point index="5" Y="240"/>
+</points>
+</series>
+
+</chart>

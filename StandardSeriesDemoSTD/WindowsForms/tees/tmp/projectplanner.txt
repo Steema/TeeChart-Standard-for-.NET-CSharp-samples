@@ -1,0 +1,122 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 830
+  Height = 480
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  BackWall.Visible = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.StartColor = 15395562
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  RightWall.Color = 14745599
+  Title.Font.Color = clGray
+  Title.Font.Height = -21
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Project Planner')
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.Increment = 30.000000000000000000
+  BottomAxis.LabelsFormat.Font.Color = clGray
+  BottomAxis.LabelsFormat.Font.Height = -16
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Caption = 'Time'
+  BottomAxis.Title.Font.Color = clGray
+  BottomAxis.Title.Font.Height = -28
+  BottomAxis.Title.Font.Name = 'Segoe UI'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Axis.Visible = False
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Color = clGray
+  LeftAxis.LabelsFormat.Font.Height = -13
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.MinorTicks.Visible = False
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Caption = 'Task'
+  LeftAxis.Title.Font.Color = clGray
+  LeftAxis.Title.Font.Height = -24
+  LeftAxis.Title.Font.Name = 'Segoe UI'
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TGanttSeries
+    Cursor = crDrag
+    Marks.Transparent = True
+    Marks.Visible = True
+    ClickableLine = False
+    Pointer.InflateMargins = True
+    Pointer.Pen.Visible = False
+    Pointer.Shadow.Visible = True
+    Pointer.Style = psRectangle
+    XValues.Name = 'Start'
+    XValues.Order = loAscending
+    YValues.Name = 'Y'
+    YValues.Order = loNone
+    Callout.Style = psRightTriangle
+    Callout.Arrow.Visible = False
+    StartValues.Name = 'Start'
+    StartValues.Order = loAscending
+    EndValues.Name = 'End'
+    EndValues.Order = loNone
+    NextTask.Name = 'NextTask'
+    NextTask.Order = loNone
+    Data = {
+      041000000000000000208AE440FF0600000044657369676E00000000E08CE440
+      000000000000204000000000808AE440FF0B00000050726F746F747970696E67
+      00000000608CE4400000000000001C4000000000A08AE440FF0B000000446576
+      656C6F706D656E7400000000808DE440000000000000244000000000408BE440
+      FF0500000053616C657300000000008EE440000000000000284000000000808B
+      E440FF090000004D61726B6574696E6700000000008EE4400000000000002A40
+      00000000E08BE440FF0700000054657374696E6700000000808EE44000000000
+      00002C4000000000408CE440FF080000004D616E756661632E00000000808DE4
+      40000000000000264000000000A08CE440FF09000000446562756767696E6700
+      000000A08EE4400000000000002E4000000000408DE440FF0B0000004E657720
+      56657273696F6E00000000008FE440000000000000F0BF00000000408DE440FF
+      0700000042616E6B696E6700000000E08FE440000000000000F0BF00000000C0
+      8DE440FF0600000044657369676E00000000C08FE440000000000000F0BF0000
+      0000E08DE440FF0B00000050726F746F747970696E67000000002090E4400000
+      00000000F0BF00000000808EE440FF0B000000446576656C6F706D656E740000
+      0000C08FE440000000000000F0BF00000000E08EE440FF0500000053616C6573
+      00000000C090E440000000000000F0BF00000000408FE440FF090000004D6172
+      6B6574696E67000000004091E440000000000000F0BF00000000C08FE440FF07
+      00000054657374696E67000000000092E440000000000000F0BF}
+  end
+  object ChartTool0: TDragPointTool
+    DragStyle = dsX
+    Series = Series0
+  end
+end

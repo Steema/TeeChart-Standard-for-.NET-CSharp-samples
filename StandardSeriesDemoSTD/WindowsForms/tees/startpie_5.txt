@@ -1,0 +1,89 @@
+object TChartChart
+  Left = 0
+  Top = 0
+  Width = 332
+  Height = 265
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Font.Color = clBlue
+  Foot.Font.Name = 'Verdana'
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = 11823615
+  Gradient.MidColor = 11823615
+  Gradient.StartColor = 11823615
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginLeft = 1
+  MarginTop = 0
+  RightWall.Color = 14745599
+  Title.Font.Color = clWhite
+  Title.Font.Height = -31
+  Title.Font.Name = 'Segoe UI'
+  Title.Text.Strings = (
+    'Pies and Donuts')
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Font.Name = 'Verdana'
+  Legend.Shadow.Transparency = 0
+  Legend.Visible = False
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  View3DOptions.Elevation = 315
+  View3DOptions.Orthogonal = False
+  View3DOptions.Perspective = 0
+  View3DOptions.Rotation = 360
+  BevelOuter = bvNone
+  Color = 11823615
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 13
+  object Series0: TPieSeries
+    Marks.Font.Color = 11823615
+    Marks.Font.Height = -13
+    Marks.Font.Name = 'Segoe UI'
+    Marks.Transparent = True
+    XValues.Order = loAscending
+    YValues.Name = 'Pie'
+    YValues.Order = loNone
+    OtherSlice.Legend.Visible = False
+    PieMarks.InsideSlice = True
+    PieMarks.Rotated = True
+    PiePen.Color = 11823615
+    PiePen.Width = 3
+    RotationAngle = 233
+    Data = {
+      06040000000000000000C07D40FFFFFF00FF0400000043617273000000000098
+      8B40F2F2F200FF0600000050686F6E65730000000000C88040DFDFDF00FF0600
+      00005461626C65730000000000C07640D7D7D700FF080000004D6F6E69746F72
+      73}
+  end
+end

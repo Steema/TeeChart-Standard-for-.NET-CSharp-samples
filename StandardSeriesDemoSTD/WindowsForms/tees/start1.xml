@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Bar" color="#FFFFFF">
+<points count="5">
+<point index="0" color="#FFFFFF" Bar="20"/>
+<point index="1" color="#FFFFFF" Bar="50"/>
+<point index="2" color="#FFFFFF" Bar="10"/>
+<point index="3" color="#FFFFFF" Bar="70"/>
+<point index="4" color="#FFFFFF" Bar="45"/>
+</points>
+</series>
+
+<series title="Series1" type="Line" color="#FFFFFF">
+<points count="10">
+<point index="0" color="#FFFFFF" X="0" Y="45"/>
+<point index="1" color="#FFFFFF" X="0.444444444444444" Y="55"/>
+<point index="2" color="#FFFFFF" X="0.888888888888889" Y="75"/>
+<point index="3" color="#FFFFFF" X="1.33333333333333" Y="65"/>
+<point index="4" color="#FFFFFF" X="1.77777777777778" Y="45"/>
+<point index="5" color="#FFFFFF" X="2.22222222222222" Y="80"/>
+<point index="6" color="#FFFFFF" X="2.66666666666667" Y="85"/>
+<point index="7" color="#FFFFFF" X="3.11111111111111" Y="98"/>
+<point index="8" color="#FFFFFF" X="3.55555555555556" Y="75"/>
+<point index="9" color="#FFFFFF" X="4" Y="68"/>
+</points>
+</series>
+
+</chart>

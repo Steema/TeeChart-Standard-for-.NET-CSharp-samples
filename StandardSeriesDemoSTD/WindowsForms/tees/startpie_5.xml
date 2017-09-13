@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Series0" type="Pie" color="#4466A3">
+<points count="4">
+<point index="0" text="Cars" color="#FFFFFF" Pie="476"/>
+<point index="1" text="Phones" color="#F2F2F2" Pie="883"/>
+<point index="2" text="Tables" color="#DFDFDF" Pie="537"/>
+<point index="3" text="Monitors" color="#D7D7D7" Pie="364"/>
+</points>
+</series>
+
+</chart>

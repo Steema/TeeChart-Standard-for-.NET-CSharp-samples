@@ -1,0 +1,153 @@
+object TChartChart
+  Left = 423
+  Top = 3
+  Width = 204
+  Height = 261
+  BackImage.Left = 70
+  BackImage.Mode = pbmCustom
+  BackImage.Top = 69
+  BackImage.Data = {
+    0954506E67496D61676589504E470D0A1A0A0000000D49484452000000400000
+    00400806000000AA6971DE000003F94944415478DAED9B6948155114C7C768D7
+    4F117D8CA28D9288A0A23E58A2660B1956B4904550145266B65A81F4A5283393
+    1629A13E9505519498AD6614423B44585849EB872222424242A4FA9D661E0CAF
+    F1CEF85EBE79A3F7C29F73CE9D99D3995F6F963BDE9B6044D17E571A8B304568
+    63428E514B3C10FF147A43BCCEDAA700B300E5D0F7817832FE1154417CC2E3BF
+    3317B3020D41CDE82E2AE7F82FD1D42F2D214A00551829EE34C52C274EC5BF8D
+    5A8813AD7D1E6126A085F49D27DE83BF13D513A7B8E4EF69015DE2B0F92BCA22
+    C7FD7800708942E611A7E1DF426DA80F7DBFE87B8E3FC601C063E2892EF98B31
+    DB14BB7C46C9E4F9E617806ACC1C749922B28833F06F5A9B7BD1D746DF4BFC91
+    36007BF1B7A3A7C4E315B907613EA2DE2E65149167B7DF00AE51C4AC3000F20B
+    68A5EF35FE701B80D0FFEA33E2718ADCF65CAA56479E74BF00D46066A31B1431
+    833813FFBAB5B91F7D3FE97B6B9837AF70000DC46315B9E5BA3FEBA10CD74B29
+    16006A29623AF14CFCABD6E644FA5A1C0094E06F412F889315B957624E7A2843
+    F94BEA6C0072B272D27F7F86C402A3260CC07BFCC13600A5F89B5023F16845EE
+    5CCC310F652841C6238032FC020F00F20CF37DC1AD29F3743600B9DE336D00E4
+    8658ED11C02BE2518ADCF998431ECA50E68935007927A87201202795EF018040
+    2AF35046137946F805401E53191D04203FEB3C0F00E43E511A3400D9F817630C
+    40C61DC3FC0220AFBD693600F3F12FB80028C75F6BB8DF04BB2C0079B4E57A00
+    20EF0A25F10E40467EA9A801C920678A61DEE0A4C9F0B5D5301F65324C3E8CEE
+    A1558679D97429009134B73741AF00DE9167A85F0042974024CD6D2C100800A1
+    A740B705107A158EA4B90D870301409EF9D9111EAE1CC606054005664D84872B
+    3F640405C0524C6584876FA6F0834107205F6DE54698DAC1431FA214F9641668
+    0056A1FD31F2A1532E85BE2EBBCBD7E2336803457F77C91B0C00B682930CF31D
+    BFB89D5D8EA31D6E271E580056D1F6B140789393DFD7815C1A8006A00168001A
+    8006A00168001A8006A001744F00F267B6E5B62EF9F496D46D0038E40ECD35D2
+    0034000D4003D00034000D203E01D8A7C868001A406C00F837434403F8B748FB
+    3C410DA03B02B0CF15D6006204C0BFA9B20E45DAA7CB87B7420ADDDF0900FC9B
+    2DEE50A47DC54878DB4AA107BA3A00FB9AA15801F06FC1844391A175834E4D39
+    27280A00CAF986B106301573A79DCDEB29F468270050AE3F8C3580499807ED6C
+    5EED75AD700701DC27EF9478013000F3C9705EED994EA17551E49635C4CB1C36
+    9D23EFE2B80060151A5A16676FF5689AAC258E22AFAC3978629853EF43ED8761
+    4EB77B1A4F007A18E6AA30F9A3864CA1BB82765164F37FC83D045368988BB19B
+    5009791BA3C9F90726B9C75FCCB52A140000000049454E44AE426082}
+  BackImageMode = pbmCustom
+  BackImageTransp = True
+  BackWall.Brush.Gradient.Direction = gdBottomTop
+  BackWall.Brush.Gradient.EndColor = clWhite
+  BackWall.Brush.Gradient.StartColor = 15395562
+  BackWall.Brush.Gradient.Visible = True
+  BackWall.Transparent = False
+  Foot.Font.Color = clGray
+  Foot.Font.Height = -16
+  Foot.Font.Name = 'Segoe UI'
+  Foot.Font.Style = [fsBold]
+  Foot.Margins.Top = 0
+  Foot.Text.Strings = (
+    'WHILE HAVING DINNER')
+  Gradient.Direction = gdBottomTop
+  Gradient.EndColor = clWhite
+  Gradient.MidColor = clWhite
+  Gradient.StartColor = 15395562
+  Gradient.Visible = True
+  LeftWall.Color = 14745599
+  MarginBottom = 2
+  RightWall.Color = 14745599
+  SubFoot.Font.Color = clGray
+  Title.Font.Name = 'Verdana'
+  Title.Text.Strings = (
+    'TeeChart')
+  Title.Visible = False
+  BottomAxis.Axis.Color = 4210752
+  BottomAxis.Grid.Color = 11119017
+  BottomAxis.LabelsFormat.Font.Name = 'Verdana'
+  BottomAxis.TicksInner.Color = 11119017
+  BottomAxis.Title.Font.Name = 'Verdana'
+  DepthAxis.Axis.Color = 4210752
+  DepthAxis.Grid.Color = 11119017
+  DepthAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthAxis.TicksInner.Color = 11119017
+  DepthAxis.Title.Font.Name = 'Verdana'
+  DepthTopAxis.Axis.Color = 4210752
+  DepthTopAxis.Grid.Color = 11119017
+  DepthTopAxis.LabelsFormat.Font.Name = 'Verdana'
+  DepthTopAxis.TicksInner.Color = 11119017
+  DepthTopAxis.Title.Font.Name = 'Verdana'
+  Hover.Visible = False
+  LeftAxis.Axis.Color = 4210752
+  LeftAxis.Grid.Color = 11119017
+  LeftAxis.LabelsFormat.Font.Name = 'Verdana'
+  LeftAxis.TicksInner.Color = 11119017
+  LeftAxis.Title.Font.Name = 'Verdana'
+  Legend.Alignment = laBottom
+  Legend.Font.Color = 2149881
+  Legend.Font.Height = -24
+  Legend.Font.Name = 'Segoe UI'
+  Legend.Font.Style = [fsBold]
+  Legend.FontSeriesColor = True
+  Legend.LegendStyle = lsLastValues
+  Legend.Shadow.Transparency = 0
+  Legend.Symbol.Visible = False
+  Legend.TopPos = 5
+  Legend.Transparent = True
+  Legend.VertSpacing = -10
+  RightAxis.Axis.Color = 4210752
+  RightAxis.Grid.Color = 11119017
+  RightAxis.LabelsFormat.Font.Name = 'Verdana'
+  RightAxis.TicksInner.Color = 11119017
+  RightAxis.Title.Font.Name = 'Verdana'
+  TopAxis.Axis.Color = 4210752
+  TopAxis.Grid.Color = 11119017
+  TopAxis.LabelsFormat.Font.Name = 'Verdana'
+  TopAxis.TicksInner.Color = 11119017
+  TopAxis.Title.Font.Name = 'Verdana'
+  View3D = False
+  View3DOptions.Elevation = 315
+  View3DOptions.Orthogonal = False
+  View3DOptions.Perspective = 0
+  View3DOptions.Rotation = 360
+  Color = clWhite
+  DefaultCanvas = 'TGDIPlusCanvas'
+  ColorPaletteIndex = 14
+  object Series0: TDonutSeries
+    Marks.Visible = False
+    XValues.Order = loAscending
+    YValues.Name = 'Pie'
+    YValues.Order = loNone
+    Frame.InnerBrush.BackColor = clRed
+    Frame.InnerBrush.Gradient.EndColor = clGray
+    Frame.InnerBrush.Gradient.MidColor = clWhite
+    Frame.InnerBrush.Gradient.StartColor = 4210752
+    Frame.InnerBrush.Gradient.Visible = True
+    Frame.MiddleBrush.BackColor = clYellow
+    Frame.MiddleBrush.Gradient.EndColor = 8553090
+    Frame.MiddleBrush.Gradient.MidColor = clWhite
+    Frame.MiddleBrush.Gradient.StartColor = clGray
+    Frame.MiddleBrush.Gradient.Visible = True
+    Frame.OuterBrush.BackColor = clGreen
+    Frame.OuterBrush.Gradient.EndColor = 4210752
+    Frame.OuterBrush.Gradient.MidColor = clWhite
+    Frame.OuterBrush.Gradient.StartColor = clSilver
+    Frame.OuterBrush.Gradient.Visible = True
+    Frame.Width = 4
+    Shadow.Visible = False
+    OtherSlice.Legend.Visible = False
+    PiePen.Color = clWhite
+    PiePen.Width = 2
+    RotationAngle = 91
+    DonutPercent = 60
+    Data = {
+      06020000000000000000405340D7D7D700FF040000004E6F6E65000000000000
+      3740F9CD2000FF0100000025}
+  end
+end

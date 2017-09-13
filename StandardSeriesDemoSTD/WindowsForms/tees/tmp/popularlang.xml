@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<chart>
+<series title="Languages" type="Bubble Cloud" color="#4466A3">
+<points count="10">
+<point index="0" text="Python" color="#4466A3" Y="1175" Z="30.3"/>
+<point index="1" text="Java" color="#4466A3" Y="1082.5" Z="22.2"/>
+<point index="2" text="C++" color="#4466A3" Y="1077.5" Z="13"/>
+<point index="3" text="Ruby" color="#4466A3" Y="1055" Z="10.6"/>
+<point index="4" text="JavaScript" color="#4466A3" Y="1042.5" Z="5.2"/>
+<point index="5" text="C#" color="#4466A3" Y="1035" Z="5"/>
+<point index="6" text="C" color="#4466A3" Y="1035" Z="4.1"/>
+<point index="7" text="PHP" color="#4466A3" Y="1017.5" Z="3.3"/>
+<point index="8" text="Perl" color="#4466A3" Y="1005" Z="1.6"/>
+<point index="9" text="Go" color="#4466A3" Y="975" Z="1.5"/>
+</points>
+</series>
+
+</chart>
