@@ -139,9 +139,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\tcroot\TeeChartforNET\Version 4\Sources\TeeChart.Standard\TeeChart.StandardUWP.csproj">
+    <ProjectReference Include="C:\tcroot\TeeChartforNET\Version 4\Sources\TeeChart.Standard\TeeChart.Standard.UWP.csproj">
       <Project>{db5312cc-47f4-498e-a1a8-7912742bf41b}</Project>
-      <Name>TeeChart.StandardUWP</Name>
+      <Name>TeeChart.Standard.UWP</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

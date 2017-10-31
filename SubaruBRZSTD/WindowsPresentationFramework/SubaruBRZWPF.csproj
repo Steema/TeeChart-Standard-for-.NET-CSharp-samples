@@ -89,9 +89,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\tcroot\TeeChartforNET\Version 4\Sources\TeeChart.Standard\TeeChart.StandardWPF.csproj">
+    <ProjectReference Include="C:\tcroot\TeeChartforNET\Version 4\Sources\TeeChart.Standard\TeeChart.Standard.WPF.csproj">
       <Project>{D114C74E-92A4-4EBD-8657-0DE5E370F3D0}</Project>
-      <Name>TeeChart.StandardWPF</Name>
+      <Name>TeeChart.Standard.WPF</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
