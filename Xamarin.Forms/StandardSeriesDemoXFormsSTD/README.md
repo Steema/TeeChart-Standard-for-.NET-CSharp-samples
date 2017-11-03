@@ -1,4 +1,5 @@
-# TeeChart Standard for .NET CSharp samples Standard Series Demo
+# TeeChart Standard for .NET CSharp samples
+## Standard Series Demo
 Demo showing how to use TeeChart Standard for .NET CSharp with Xamarin.Forms.
 
 This sample combines [TeeChart for .NET CSharp combined with Xamarin.Forms Component library](https://www.steema.com/product/forms) with [Xamarin.Forms](https://www.xamarin.com/forms). 
