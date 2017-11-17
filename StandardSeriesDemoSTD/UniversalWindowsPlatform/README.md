@@ -1,7 +1,7 @@
 # TeeChart-Standard-for-.NET-CSharp-samples in Universal Windows Platform
-Sample programs showing how to use TeeChart Standard for .NET CSharp with Universal Windows Platform.
+Standard Series Demo showing how to use TeeChart Standard for .NET CSharp with Universal Windows Platform.
 
-The animated screenshot below shows a selection of standard Series types available.
+The animated screenshot below shows a selection of Standard Series types available.
 
 ![screenshot](https://github.com/Steema/TeeChart-Standard-for-.NET-CSharp-samples/blob/master/StandardSeriesDemoSTD/UniversalWindowsPlatform/Screenshots/standardSeriesDemo.gif?raw=true "TeeChart Standard for NET C#-UWP demo")
 
@@ -12,5 +12,5 @@ You'll need TeeChart Standard for .NET evaluation or registered version to run t
 ---
 ### Author
 ------
-Josep Lluis Jorge
+Chris Ireland
 
