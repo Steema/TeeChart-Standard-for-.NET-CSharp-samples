@@ -134,8 +134,6 @@ namespace StandardSeriesWPFDemo
       //this.seriesAnimation1.StartValue = 0D;
       this.chartPartAnimation1.Axis = null;
       quadraticEase1.EasingMode = EasingMode.EaseIn;
-      this.chartPartAnimation1.EasingFunction = quadraticEase1;
-      this.chartPartAnimation1.EasingMode = EasingMode.EaseOut;
       this.chartPartAnimation1.Fade = TransformFade.In;
       this.chartPartAnimation1.RotateMax = 0F;
       this.chartPartAnimation1.RotateMin = 0F;

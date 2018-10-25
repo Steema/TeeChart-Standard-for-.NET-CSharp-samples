@@ -526,8 +526,6 @@ namespace StandardSeriesWPFDemo
       this.horizBar1.YValues.Order = Steema.TeeChart.WPF.Styles.ValueListOrder.Ascending;
 
       this.chartPartAnimation1.Axis = null;
-      this.chartPartAnimation1.EasingFunction = new BounceEase();
-      this.chartPartAnimation1.EasingMode = EasingMode.EaseIn;
       this.chartPartAnimation1.Fade = Steema.TeeChart.WPF.Animations.TransformFade.None;
       this.chartPartAnimation1.RotateMax = 0F;
       this.chartPartAnimation1.RotateMin = 0F;
@@ -538,8 +536,6 @@ namespace StandardSeriesWPFDemo
       this.chartPartAnimation1.Trigger = Steema.TeeChart.WPF.Animations.AnimationTrigger.MouseOver;
 
       this.chartPartAnimation2.Axis = null;
-      this.chartPartAnimation2.EasingFunction = new CircleEase();
-      this.chartPartAnimation2.EasingMode = EasingMode.EaseIn;
       this.chartPartAnimation2.Fade = Steema.TeeChart.WPF.Animations.TransformFade.In;
       this.chartPartAnimation2.RotateMax = 360F;
       this.chartPartAnimation2.RotateMin = 0F;
