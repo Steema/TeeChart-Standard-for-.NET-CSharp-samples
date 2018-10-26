@@ -85,7 +85,6 @@ namespace SubaruBRZWPF
       this.revChart.Axes.Top.Labels.Font.Brush.Color = Utils.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
       this.revChart.Axes.Top.Labels.Font.Size = 9;
       this.revChart.Panel.Transparent = true;
-      this.revChart.CurrentTheme = Steema.TeeChart.WPF.ThemeType.Report;
       this.revChart.Header.Font.Brush.Color = Colors.Gray;
       this.revChart.Header.Font.Size = 12;
       this.revChart.Legend.Font.Brush.Color = Utils.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -685,7 +684,6 @@ namespace SubaruBRZWPF
       this.speedChart.Axes.Top.Labels.Font.Brush.Color = Utils.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
       this.speedChart.Axes.Top.Labels.Font.Size = 9;
       this.speedChart.Panel.Transparent = true;
-      this.speedChart.CurrentTheme = Steema.TeeChart.WPF.ThemeType.Report;
       this.speedChart.Header.Font.Brush.Color = Colors.Gray;
       this.speedChart.Header.Font.Size = 12;
       this.speedChart.Legend.Font.Brush.Color = Utils.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));

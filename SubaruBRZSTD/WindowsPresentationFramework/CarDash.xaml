@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SubaruBRZWPF"
-        xmlns:wpf="clr-namespace:Steema.TeeChart.WPF;assembly=TeeChart.StandardWPF"
+        xmlns:wpf="clr-namespace:Steema.TeeChart.WPF;assembly=TeeChart.Standard.WPF"
         mc:Ignorable="d"
         Title="TeeChart for NET - Subaru BRZ acceleration simulation" Height="1000" Width="1500" ResizeMode="CanMinimize">
     <Grid>
