@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="BenchmarkUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BenchmarkUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Store="using:Steema.TeeChart.Store"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="900"/>
+        </Grid.ColumnDefinitions>
+
+        <Store:TChart Name="tChart1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Button Name="BRun" Click="BRun_Click" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top">Run</Button>
+    </Grid>
+</Page>

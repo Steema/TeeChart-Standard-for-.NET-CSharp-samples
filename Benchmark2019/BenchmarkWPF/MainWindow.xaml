@@ -1,0 +1,19 @@
+﻿<Window x:Class="BenchmarkWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BenchmarkWPF"
+        xmlns:Store="clr-namespace:Steema.TeeChart.WPF;assembly=TeeChart.Standard.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="700"/>
+        </Grid.ColumnDefinitions>
+
+        <Store:TChart Name="tChart1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Button Name="BRun" Click="BRun_Click" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top">Run</Button>
+    </Grid>
+</Window>
