@@ -43,15 +43,15 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="TeeChart.Standard, Version=4.2018.10.26, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
-      <HintPath>packages\Steema.TeeChart.NET.Standard.4.2018.10.26\lib\net40\TeeChart.Standard.dll</HintPath>
+    <Reference Include="TeeChart.Business, Version=4.2021.6.21, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Steema.TeeChart.NET.Business.5.2021.6.21\lib\net40\TeeChart.Business.dll</HintPath>
     </Reference>
-    <Reference Include="TeeChart.Standard.WPF, Version=4.2018.10.26, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
-      <HintPath>packages\Steema.TeeChart.NET.Standard.4.2018.10.26\lib\net40\TeeChart.Standard.WPF.dll</HintPath>
+    <Reference Include="TeeChart.Business.WPF, Version=4.2021.6.21, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Steema.TeeChart.NET.Business.5.2021.6.21\lib\net40\TeeChart.Business.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

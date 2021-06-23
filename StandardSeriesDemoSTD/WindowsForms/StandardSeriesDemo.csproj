@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StandardSeriesDemo</RootNamespace>
     <AssemblyName>StandardSeriesDemo</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -59,6 +59,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <OutputPath>bin1\Release\</OutputPath>
@@ -68,6 +69,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>StandardSeriesDemo.ico</ApplicationIcon>
@@ -79,8 +81,11 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TeeChart.Standard, Version=4.2018.10.25, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
-      <HintPath>packages\Steema.TeeChart.NET.Standard.4.2018.10.25\lib\net20\TeeChart.Standard.dll</HintPath>
+    <Reference Include="TeeChart.Business, Version=4.2021.6.21, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Steema.TeeChart.NET.Business.5.2021.6.21\lib\net40\TeeChart.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="TeeChart.Business.WPF, Version=4.2021.6.21, Culture=neutral, PublicKeyToken=7d79220c74c907b6, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Steema.TeeChart.NET.Business.5.2021.6.21\lib\net40\TeeChart.Business.WPF.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
